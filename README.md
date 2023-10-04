@@ -1,6 +1,6 @@
 <h1 align="center">Principios SOLID</h1>
 
-En este [repositorio](https://github.com/Diegodesantos1/Principios_SOLID) quedan resuelta la práctica de los principios SOLID.
+En este [repositorio](https://github.com/Diegodesantos1/Principios_SOLID) queda resuelta la práctica de los principios SOLID.
 
 <h2 align="center">Matriz Transpuesta</h2>
 
