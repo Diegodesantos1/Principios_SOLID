@@ -1,22 +1,6 @@
-class Matriz:
-    def __init__(self, elementos: list):
-        self.elementos = elementos
-
-class Transpuesta:
-    def __init__(self, matriz: Matriz):
-        self.matriz = matriz
-    
-    def calcular_transpuesta(self):
-        return Matriz([[fila[i] for fila in self.matriz.elementos] for i in range(len(self.matriz.elementos[0]))])
-
-class Imprimir:
-    def __init__(self, matriz: Matriz):
-        self.matriz = matriz
-    
-    def imprimir(self):
-        for fila in self.matriz.elementos:
-            print(fila)
-
+from matriz import Matriz
+from transpuesta import Transpuesta
+from imprimir import Imprimir
 class Lanzador:
     def __init__(self):
         self.elementos = []
@@ -41,7 +25,3 @@ class Lanzador:
         transpuesta_result = self.transpuesta.calcular_transpuesta()
         imprimir_transpuesta = Imprimir(transpuesta_result)
         imprimir_transpuesta.imprimir()
-
-if __name__ == "__main__":
-    lanzador = Lanzador()
-    lanzador.lanzar()
