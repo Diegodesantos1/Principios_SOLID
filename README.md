@@ -4,6 +4,9 @@ En este [repositorio](https://github.com/Diegodesantos1/Principios_SOLID) queda 
 
 <h2 align="center">Matriz Transpuesta</h2>
 
+*Ejercicio práctico 1 (3 Puntos): Creación de una clase en Python que representa una matriz.
+Para este ejercicio, deberás crear una clase que representa una matriz. Las operaciones que esta clase debe permitir son la creación de una matriz a partir de una lista de listas, la impresión de la matriz en una forma legible, y el cálculo de la transpuesta de la matriz. Asegúrate de que cada método tenga una única responsabilidad.*
+
 El código empleado para resolverlo es el siguiente:
 
 ```python
@@ -55,3 +58,6 @@ if __name__ == "__main__":
     lanzador = Lanzador()
     lanzador.lanzar()
 ```
+
+![image](https://github.com/Diegodesantos1/Principios_SOLID/assets/91721855/c59910bf-bac2-4412-9a13-f0690666c402)
+
